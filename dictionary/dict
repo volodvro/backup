@@ -1,0 +1,11 @@
+#!/bin/sh
+
+word=$1
+meaning=$2
+
+if [ $# -ne 2 ]; then
+echo "failed. 1 - word, 2 - meaning"
+else
+echo "$1:$2">>$DICTIONARY
+fi
+

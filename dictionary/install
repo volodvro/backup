@@ -1,0 +1,7 @@
+#!/bin/sh
+
+cp dict /usr/bin/dict
+ehco "export DICTIONARY=~/dictionary" >> ~/.bashrc
+source ~/bashrc
+
+cp dictionary $DICTIONARY
