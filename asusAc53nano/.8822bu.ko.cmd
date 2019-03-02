@@ -1,1 +1,0 @@
-cmd_/home/volodvro/Downloads/rtl8822bu/8822bu.ko := ld -r -m elf_x86_64 -z max-page-size=0x200000 -T ./scripts/module-common.lds --build-id  -o /home/volodvro/Downloads/rtl8822bu/8822bu.ko /home/volodvro/Downloads/rtl8822bu/8822bu.o /home/volodvro/Downloads/rtl8822bu/8822bu.mod.o ;  true
